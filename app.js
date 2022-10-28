@@ -3,4 +3,4 @@ $("#addTodo").click(function () {
     $("#todolist").append("<li><input type='checkbox'>" + inputTodo + "</li>");
 
     $("input").val("");
-})
+});
